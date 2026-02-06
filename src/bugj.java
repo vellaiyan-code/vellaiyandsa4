@@ -4,6 +4,8 @@ public class bugj {
 
 
     }
+
+
     static int fibo(int n) {
         if (n < 2) {
 
