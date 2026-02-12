@@ -5,7 +5,7 @@ public class finduniquenum {
 
     }
     private static int ans(int[]arr){
-        int unique=0;
+        int unique=0;  
 
         for(int n:arr){
             unique^=n;
