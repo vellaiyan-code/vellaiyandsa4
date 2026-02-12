@@ -1,7 +1,7 @@
 public class sumofdigit {
     public static void main(String[] args) {
         int ans=sum(1342);
-        System.out.println(ans);
+        System.out.println(ans );
 
     }
     static int sum(int n){
