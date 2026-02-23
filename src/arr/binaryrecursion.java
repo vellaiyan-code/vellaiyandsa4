@@ -27,6 +27,7 @@ public class binaryrecursion {
         }
         return findallindex(arr, target, index + 1, list);
     }
+    // secound approach
 
     static ArrayList<Integer> findallindex2(int[] arr, int target, int index) {
 
