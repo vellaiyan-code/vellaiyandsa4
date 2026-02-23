@@ -1,4 +1,4 @@
-public class countingzeroes {
+public class   countingzeroes {
     public static void main(String[] args) {
         System.out.println(count(30201020));
 
