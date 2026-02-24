@@ -10,6 +10,6 @@ public class recursion1 {
         if (index== arr.length-1){
             return true;
         }
-        return arr[index]<arr[index+1]&& sorted(arr,index+1);
+        return arr[index]<arr[index+1]&& sorted(arr,index+2);
     }
 }
