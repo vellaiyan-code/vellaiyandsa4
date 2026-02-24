@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class bubblerec {
     public static void main(String[] args) {
-        int []arr={4,3,2,1,7,6,6,5,4,};
+        int []arr={4,3,2,1,};
         bubble(arr, arr.length-1,0);
         System.out.println(Arrays.toString(arr));
 
@@ -20,7 +20,7 @@ public class bubblerec {
             }
             bubble(arr,r,c+1);
         }else {
-            bubble(arr,r+1,0);
+            bubble(arr,r-1,0);
         }
     }
 }
