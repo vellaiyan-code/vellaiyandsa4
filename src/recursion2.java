@@ -11,7 +11,7 @@ public class recursion2 {
             System.out.println('*');
             triangle(r,c+1);
         }else {
-            System.out.println();
+            System.out.println(  );
             triangle(r-1,0);
         }
     }
