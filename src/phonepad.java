@@ -14,7 +14,7 @@ public class phonepad {
         for (int i = (digit-1)*3; i < digit*3; i++) {
 
             char ch=(char) ('a'+i);
-            phone(p+ch,up.substring(1));
+             phone(p+ch,up.substring(1));
 
         }
 

@@ -55,6 +55,7 @@ public class basic {
      void changename(String newname){
              name=newname;
      }
+
          Student(){// it is an constructor calls
              this.rno=10;
              this.name="vellaiyan";
@@ -66,6 +67,7 @@ public class basic {
                  this.name = name;
                  this.marks = marks;
              }
+
              Student(Student other){
              this.name=other.name;
              this.marks=other.marks;
